@@ -25,3 +25,22 @@ background-image:linear-gradient(45deg, cyan, yellow);
 </center>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style type="text/css">
+        body {
+            background-color: rgb(<?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>);
+        }
+    </style>
+</head>
+<body>
+    <h2>Login</h2>
+    <form method="post" action="login.php">
+        <!-- campos de login aqui -->
+    </form>
+</body>
+</html>
+
